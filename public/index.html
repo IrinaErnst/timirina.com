@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="">
     <meta name="author" content="www.dethemes.com">
-    <title>TIM &amp; IRINA</title>
+    <title>Tim&nbsp;&amp;&nbsp;Irina's Wedding</title>
 
     <link rel="icon" href="images/favicon.jpg">
     <!-- Bootstrap -->
@@ -39,9 +39,6 @@
     <!-- <link href="css/skin/light-teal/light-teal.css" rel="stylesheet" media="screen"> -->
     <!-- <link href="css/skin/light-teal/light-teal-reverse-navbar.css" rel="stylesheet" media="screen"> -->
     <!--link href="css/skin/pattern/pattern-1.css" rel="stylesheet" media="screen"-->
-
-
-
 
   </head>
 
@@ -237,7 +234,7 @@
               <!--END of PHOTO-ITEM-->
 
               <div class="his-her-name">
-                <h2 class="text-center">TIM<span class="last-name">-&nbsp;Groome&nbsp;-</span></h2>
+                <h2 class="text-center">TIM<span class="last-name">-&nbsp;Ernst&nbsp;-</span></h2>
                 <div class="heart-wrapper">
                   <div class="de-icon circle medium-size custom-heart">
                     <i class="de-icon-heart"></i>
@@ -246,7 +243,7 @@
               </div>
 
               <p class="blurb animation fadeInLeft text-center">
-                Tim was born in Arizona, raised in Fullerton, California and went to University of North Carolina at Charlotte where he studied economics. His first job out of school landed him in New York and he's been living in New York for the past 5 years.
+                Tim was born in Arizona, raised in Fullerton, California and went to the University of North Carolina at Charlotte where he studied economics. His first job out of school landed him in New York and he's been living in New York for the past 5 years.
               </p>
 
             </div>
@@ -291,7 +288,7 @@
               <!--END of PHOTO-ITEM-->
 
               <div class="his-her-name">
-                <h2 class="text-center">Irina<span class="last-name">-&nbsp;Bride&nbsp;-</span></h2>
+                <h2 class="text-center">Irina<span class="last-name">-&nbsp;Kalashnikova&nbsp;-</span></h2>
               </div>
 
               <p class="blurb animation fadeInRight text-center">
@@ -308,7 +305,6 @@
         <div class="image-divider fixed-height" style="background-image:url(https://res.cloudinary.com/dlpep2th5/image/upload/v1453522245/DSC01704_puftxz.jpg); height:600px" data-stellar-background-ratio="0.3">
         </div>
       </section>
-
 
       <!-- OUR STORY SECTION -->
       <section id="our-story">
@@ -718,13 +714,11 @@
 
 
                 <div class="text-center animation fadeInUp">
-                  <p> *** Please reserve before June 9th, 2016 ***</p>
+                  <h3> *** Please RSVP prior to June 9th, 2016 ***</h3>
                 </div>
 
                 <div class="text-center">
-                  <a href="#rsvp-section" class="smooth-scroll de-button outline medium animation fadeInUp">
-                                      RSVP
-                                    </a>
+                  <a href="#rsvp-section" class="smooth-scroll de-button outline medium animation fadeInUp">RSVP</a>
                 </div>
 
 
@@ -2108,7 +2102,7 @@
               <!-- Show Message -->
             </div>
 
-            <form method="post" action="rsvp.php" id="rsvpform">
+            <form method="post" action="https://aqueous-journey-93402.herokuapp.com/rsvp" id="rsvpform">
               <div class="col-md-6">
                 <div id="fullname" class="form-group">
                   <label for="inputname">*NAME</label>
@@ -2119,14 +2113,14 @@
                   <input type="email" class="form-control ajax-input" id="inputemail" placeholder="" data-required="Email Required" data-output-label="Output Email">
                 </div>
                 <div id="events" class="form-group">
-                  <label for="inputevents">*I WILL ATTEND TO</label>
-                  <select multiple id="inputevents" class="form-control ajax-input" data-required="Please Select Events" data-output-label="Output Events">
-                    <option>Ransom</option>
-                    <option>Rehearsal</option>
-                    <option>Rehearsal Dinner</option>
-                    <option>Ceremony</option>
-                    <option>The Party</option>
-                  </select>
+                  <label for="inputevents">*I WILL ATTEND:</label>
+                  <div id="inputevents">
+                    <label for="ransom"><input type="checkbox" class="ajax-input ajax-checkbox" id="attendRansom" name="inputRansom" value="Ransom"/> Ransom</label><br>
+                    <label for="rehearsal"><input type="checkbox" class="ajax-input ajax-checkbox" id="attendRehearsal" name="inputRehearsal" value="Rehearsal"/> Rehearsal</label><br>
+                    <label for="rehearsalDinner"><input type="checkbox" class="ajax-input ajax-checkbox" id="attendRehearsalDinner" name="inputRehearsalDinner" value="Rehearsal Dinner"/> Rehearsal Dinner</label><br>
+                    <label for="ceremony"><input type="checkbox" class="ajax-input ajax-checkbox" id="attendCeremony" name="inputCeremony" value="Ceremony"/> Ceremony</label><br>
+                    <label for="reception"><input type="checkbox" class="ajax-input ajax-checkbox" id="attendReception" name="inputReception" value="Reception"/> Reception</label>
+                  </div>
                 </div>
               </div>
               <div class="col-md-6">
