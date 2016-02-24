@@ -179,6 +179,15 @@ $(document).ready(function () {
 
   // 04. PACE PRELOADER
   //==================================================================================
+
+  Pace.options = {
+    ajax: false, // disabled
+    document: false, // disabled
+    eventLag: false, // disabled
+    restartOnPushState: false,
+    restartOnRequestAfter: false
+  };
+
   Pace.on('done', function () {
     $('#preloader').hide();
   });
