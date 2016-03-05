@@ -2,9 +2,6 @@
 Author: Irina Kalashnikova
 Date: 02/22/2016
 Purpose: Wedding website
-WebSite: TimIrina.com
-Heroku: TimIrina.herokuapp.com
-Local: localhost:3000
 **********************************************
 
 
@@ -15,4 +12,5 @@ locahost:3000
 Photo library:
 https://cloudinary.com/console/media_library
 
+Ownership transferred to grempe
 
