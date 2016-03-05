@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SunFloweri/timirina.com.git"
+    "url": "git+https://github.com/grempe/timirina.com.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SunFloweri/timirina.com/issues"
+    "url": "https://github.com/grempe/timirina.com/issues"
   },
-  "homepage": "https://github.com/SunFloweri/timirina.com#readme",
+  "homepage": "https://github.com/grempe/timirina.com#readme",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",
