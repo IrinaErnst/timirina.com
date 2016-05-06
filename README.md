@@ -1,7 +1,7 @@
 **********************************************
 Author: Irina Kalashnikova
 Date: 02/22/2016
-Purpose: Wedding website
+Purpose: My wedding website
 **********************************************
 
 
