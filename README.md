@@ -5,7 +5,7 @@ Purpose: My wedding website
 **********************************************
 
 
-To Start: 
+To Start:
 bundle exec thin start
 locahost:3000
 
@@ -13,4 +13,3 @@ Photo library:
 https://cloudinary.com/console/media_library
 
 Ownership transferred to grempe
-
